@@ -2,6 +2,21 @@
 
 Common Lisp implementation of the constained delaunay triangulation algorithm.
 
+## Installation
+
+From the takeiteasy Quicklisp dist:
+
+```lisp
+(ql-dist:install-dist "https://takeiteasy.github.io/ql-dist/dist/takeiteasy.txt")
+(ql:quickload :cl-constrained-delaunay)
+```
+
+Or clone into Quicklisp's local-projects:
+
+```sh
+git clone https://github.com/takeiteasy/cl-constrained-delaunay ~/quicklisp/local-projects/cl-constrained-delaunay
+```
+
 ## LICENSE
 
 ```
